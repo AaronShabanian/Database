@@ -16,6 +16,7 @@ public:
   //various getter methods
   int getStudentid();
   string getStudentName();
+  void changeAdvisor(int id);
   string getStanding();
   string getMajor();
   double getGPA();

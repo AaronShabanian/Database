@@ -37,6 +37,9 @@ double Student::getGPA(){
 int Student::getAdvisor(){
   return advisor1;
 }
+void Student::changeAdvisor(int id){
+  advisor1=id;
+}
 bool operator <(const Student &c1, const Student &c2){
   if(c1.studentid<c2.studentid){
     return true;
